@@ -1,6 +1,6 @@
-import { Image } from './components/CompImage/Image'
-import { Form } from './components/Form/Form'
-import { Header } from './components/Logo/Header'
+import { Image } from './components/Arquive/Image'
+import { Form } from './components/Note/Form'
+import { Header } from './components/Head/Header'
 
 export function App() {
 
