@@ -7,15 +7,15 @@ export function Form() {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
 
-  function handlePegarDados(event){
+  function handlePegarDados(event) {
     setEmail(event.target.value)
   }
 
-  function handlePegapass(event){
+  function handlePegapass(event) {
     setPassword(event.target.value)
   }
 
-  function handleEnviar(){
+  function handleEnviar() {
     alert('E-mail: ' + email + '\nSenha: ' + password);
   }
 
@@ -38,9 +38,9 @@ export function Form() {
                   type="email"
                   className='inputs-iguis'
                   value={email}
-                  placeholder='Digite seu e-mail' 
+                  placeholder='Digite seu e-mail'
                   onChange={handlePegarDados}
-                  />
+                />
               </div>
               <div className='inputs'>
                 <div className='esq-pass'>
@@ -60,12 +60,12 @@ export function Form() {
               </div>
             </div>
           </div>
-          <button 
-          className='btn-button' 
-          type="submit"
-          onClick={handleEnviar}
+          <button
+            className='btn-button'
+            type="submit"
+            onClick={handleEnviar}
           >
-          Entrar
+            Entrar
           </button>
 
           <span className='text-span'>Ainda não tem uma conta? <label className='span-label'>Inscreva-se</label></span>

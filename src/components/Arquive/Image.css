@@ -1,9 +1,9 @@
 .img-direito {
-  position: fixed; 
-  right: 0; 
-  top: 0; 
-  width: 65%;
-  height: 100%;
+  position: absolute;
+  width: 736px;
+  height: 900px;
+  left: 704px;
+  top: 0px;
   background: #7C3AED;
   mix-blend-mode: screen;
 }
